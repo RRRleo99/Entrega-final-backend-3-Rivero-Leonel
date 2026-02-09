@@ -4,7 +4,7 @@
 
 ---
 
-## 📄 Documentación (Swagger)
+## Documentación (Swagger)
 He documentado el módulo de **Usuarios**. Una vez que inicies el servidor, puedes ver los endpoints aquí:  
  `http://localhost:8080/api-docs`
 
