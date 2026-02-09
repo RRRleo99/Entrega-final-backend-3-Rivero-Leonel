@@ -1,12 +1,23 @@
-# 🐾 Proyecto AdoptMe - Backend III: Final
+#  Proyecto AdoptMe - Final
+**Alumno:** Rivero Leonel  
+**Curso:** Backend III
 
-¡Hola Este es mi proyecto final para el curso de Backend III. Se trata de un sistema de gestión para una plataforma de adopción de mascotas, con foco en **documentación, testing y contenedores**.
-**Alumno: Rivero Leonel**
 ---
 
-##  Cómo empezar?
+## 📄 Documentación (Swagger)
+He documentado el módulo de **Usuarios**. Una vez que inicies el servidor, puedes ver los endpoints aquí:  
+ `http://localhost:8080/api-docs`
 
-### 1. Instalación
-Clona el repositorio e instala las dependencias:
-```bash
-npm install
+---
+
+## Testing
+He creado tests de integración para el módulo de **Adopciones** (`adoption.router.js`).  
+Para ejecutarlos, usa:
+`npm test`
+
+---
+
+## Docker
+El proyecto tiene su archivo `Dockerfile` listo. 
+Para crear la imagen localmente:  
+`docker build -t adoptme-app .`
